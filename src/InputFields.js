@@ -30,8 +30,9 @@ function Inputfields(props) {
   }
 
   return (
-    <Row className="formconent sm-12 ">
-
+   <div class="row1">
+   <Row className="formconent ">
+   
     <Form style={{marginTop:"150px"}}  onSubmit={handleSubmit} className="sm-12" >
        <Form.Label>  Chilling Center ID:</Form.Label>
     <Form.Control className="form1" required type="text" value={centerId} onChange={(e) => setCenterId(e.target.value)}/><br/>
@@ -63,6 +64,7 @@ function Inputfields(props) {
    <Button type="submit" className='btnread' onClick={handleButtonClick}>SUBMIT</Button>
      </Form>
      </Row>
+     </div>
   );
 }
 
