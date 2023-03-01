@@ -31,7 +31,7 @@ function Inputfields(props) {
 
   return (
    <div class="row1">
-   <Row className="formconent ">
+   <Row className="formconent " >
    
     <Form style={{marginTop:"150px"}}  onSubmit={handleSubmit} className="sm-12" >
        <Form.Label>  Chilling Center ID:</Form.Label>
