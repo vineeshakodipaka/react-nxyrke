@@ -53,6 +53,20 @@ p {
     height: 100vh !important;
   }
 }
+@media screen and (max-width: 992px) {
+  .formconent {
+    width:600px;
+    height: 850px;
+  }
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+  .formconent {
+    width:600px;
+    height: 850px;
+  }
+}
 /* .row1 {
   display: flex;
   justify-content: center;
