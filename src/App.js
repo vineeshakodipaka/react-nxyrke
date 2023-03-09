@@ -11,7 +11,7 @@ function App() {
   };
 
   if (otpSubmitted) {
-    return <p class="paraform">OTP submitted successfully!</p>;
+    return <p class="paraform">OTP submitted successfully!</p>
   }
 
   return (
